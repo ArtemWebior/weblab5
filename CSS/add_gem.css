@@ -1,0 +1,52 @@
+@import url("/CSS/components/header.css");
+@import url("/CSS/components/content.css");
+
+.content-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+}
+
+#addGemForm {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    gap: 15px;
+}
+
+#addGemForm input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+    transition: box-shadow 0.3s ease;
+}
+
+#addGemForm input:focus {
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+#addGemForm button {
+    padding: 10px 20px;
+    background-color: #3A7AD9;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#addGemForm button:hover {
+    background-color: #23D18B;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

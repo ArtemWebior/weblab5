@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My gems</title>
+  <link rel="stylesheet" href="CSS/lab4.css">
+</head>
+<body>
+    <main class="wrap">
+        <header class="header">
+            <div class="header-logo">BG</div>
+            <nav class="header-navigation">
+                <ul class="header-navigation-list">
+                    <li><a href="lab4.html">Your gems</a></li>
+                    <li><a href="add_gem.html">Add gem</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="content">
+            <menu class="content-menu">
+                <input type="text" class="content-menu-search" placeholder="Search by name"/>
+                <button class="content-menu-button">Sort by Name</button>
+                <button class="content-menu-button">Calculate Total Price</button>
+            </menu>
+
+            <div class="content-itemList"></div>
+            <div class="content-totalprice"></div>
+        </div>
+    </main>
+    <script src="data.js"></script>
+    <script src="lab4.js"></script>
+    <script src="edit_gem.js"></script>
+</body>
+</html>
